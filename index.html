@@ -4,33 +4,83 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Coding Projects</title>
+    <title>Personal Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    
 </head>
-<header>
-    <h1>My Coding Projects</h1>
-    <p>A place for all of my projects</p>
+    <br><br>
+<header id="header">
+    <nav id="nav">
+        <ul id="nav-bar">
+            <li class="nav-link"><a href="index.html">Home</a></li>
+            <li class="nav-link"><a href="#about">About</a></li>
+            <li class="nav-link"><a href="#projects">Projects</a></li>
+            <li class="nav-link"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 </header>
-<body>
-    
-    <h3>FreeCodeCamp Projects</h3>
-    <h4>Responsive Web Design Certification</h4>
-    <ul>
-        <li><a href="" </a>Survey Form</l1>
-        <li><a href="" </a>Tribute Page</l1>
-        <li><a href="" </a>Product Landing Page</li>
-        <li><a href="" </a>Technical Documentation Page</li>
-        <li><a href="" </a>Personal Portfolio (Coming Soon)</li>
-    </ul>
 
-    <h4>JavaScript Algorithms and Data Structures Certification</h4>
+<body>
+    <welcome id="welcome-section">
+        <h1>Welcome to my Personal Portfolio</h1>
+    </welcome>
+    <img src=" https://scontent-lax3-1.xx.fbcdn.net/v/t39.30808-6/334065439_210329598319936_5449733854105119258_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=i7kEOM8Ve0wAX87fGDD&_nc_ht=scontent-lax3-1.xx&cb_e2o_trans=q&oh=00_AfD5soTGyIrOoUurHOIlqUAkVlOiHB31fkpHRLipPw75dg&oe=6606825A"
+        alt="me" id="header-img">
+    <hr>
     
-    <ul>
-        <li><a href="" </a>Palindrome Checker</li>
-        <li><a href="" </a>Roman Numeral Converter</li>
-        <li><a href="" </a>Telephone Number Validator</li>
-        <li><a href="" </a>Cash Register</li>
-        <li><a href="" </a>Pokemon Search App</li>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Adrienne Marie. I started learning coding for fun, but the more projects I did, the more I fell in
+            love with the world of programming and coding. I'm self taught, learning HTML/CSS, Javascript and Python. I
+            am also studying to get my certicate in Data Analysis. That is through CalBright College, a free online
+            school for those based in California. </p>
+    </section>
+    <hr>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-tile"></div>
+        <p>Here are a few of the projects that I have worked on from differnt coding sites. The sites I use the most
+            are: <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a> and <a
+                href="https://www.codedex.io/home" target="_blank">Codedex</a> which is an amazing site that combines
+            learning with rpg element. The projects featured below are from those two websites. As I learn more, I will
+            add new projects!</p><br>
+        <h3>FreeCodeCamp Projects</h3>
+        <h4>Responsive Web Design Certification</h4>
+        <ul>
+            <li><a href="" target="_blank">Survey Form</a></li>
+            <li><a href="" target="_blank">Tribute Page</a></li>
+            <li><a href="" target="_blank">Product Landing Page</a></li>
+            <li><a href="" target="_blank">Technical Documentation Page</a></li>
+        </ul>
+        <br>
+        <hr>
+        <h3>Codedex Projects</h3>
+        <ul>
+            <li><a href="https://divalady87.github.io/Cafe/" target="_blank">Restaurant Menu</a></li>
+        </ul>
+
+    </section><br>
+    <hr>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Come find me at:</p>
+        <a href="https://github.com/Divalady87" target="_blank" id="profile-link">Github</a>
+        <p>Free free to contact me using the form down below and I'll get back to you as soon as I can:</p>
+        <br><br>
+        <form action="mailto:divalady87@gmail.com" method="post" enctype="text/plain">
+            Name:<br>
+            <input type="text" name="name"><br>
+            E-mail:<br>
+            <input type="email" name="mail" required><br>
+            Comment:<br>
+            <textarea id="comments" name="comment" rows="5" cols="40">Any questions?</textarea>
+            <br><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
+
+
+    </section>
 </body>
 
 </html>
