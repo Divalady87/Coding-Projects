@@ -1,0 +1,49 @@
+header {
+     display: flex;
+      justify-content: flex-end;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    opacity: 0.8;
+    background-color: purple;
+}
+
+#nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav-link {
+    float: left;
+}
+
+.nav-link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-link a:hover {
+    background-color: #111;
+}
+
+
+
+body {
+    background-color: lightgray;
+}
+
+img {
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  body {
+    flex-wrap: wrap;
+  }
